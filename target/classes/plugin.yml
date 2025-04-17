@@ -1,0 +1,22 @@
+main: de.spookly.lobby.LobbyPlugin
+name: SpooklyLobby
+version: '4.1-SNAPSHOT'
+api-version: '1.21'
+website: https://spookly.net
+authors:
+  - Niklas Ehlen
+commands:
+  build:
+    permission: spookly.command.build
+    description: Sets player into build mode
+    aliases:
+      - bau
+      - edit
+  setspawn:
+    permission: spookly.command.setup
+    description: Set compass teleport points
+    aliases:
+      - set
+  fly:
+    permission: spookly.command.fly
+    description: Sets player into flight mode
