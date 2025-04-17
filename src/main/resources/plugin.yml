@@ -20,8 +20,3 @@ commands:
   fly:
     permission: spookly.command.fly
     description: Sets player into flight mode
-depend:
-  - SpooklyCloudnetUtils
-  - SpooklyCore
-softdepend:
-  - SpooklyCosmetics
