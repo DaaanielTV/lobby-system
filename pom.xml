@@ -29,6 +29,11 @@
             <id>cloudnet</id>
             <url>https://repo.cloudnetservice.eu/repository/releases/</url>
         </repository>
+        <!-- Spookly Repository -->
+        <repository>
+            <id>spookly</id>
+            <url>https://repo.spookly.net/repository/releases/</url>
+        </repository>
     </repositories>
 
     <dependencies>
@@ -58,6 +63,20 @@
             <groupId>eu.cloudnetservice.cloudnet</groupId>
             <artifactId>bridge</artifactId>
             <version>4.0.0-RC9</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <!-- Spookly Dependencies -->
+        <dependency>
+            <groupId>de.nehlen</groupId>
+            <artifactId>spookly-core</artifactId>
+            <version>4.1-SNAPSHOT</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>de.nehlen</groupId>
+            <artifactId>spookly-cloudnet-utils</artifactId>
+            <version>4.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
 

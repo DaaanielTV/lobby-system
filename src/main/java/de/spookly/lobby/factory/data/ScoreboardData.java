@@ -52,6 +52,11 @@ public enum ScoreboardData implements SidebarPage {
 		return Component.text("\uE002").font(Key.key("scoreboard"));
 	}
 
+    @Override
+    public List<Component> getLines() {
+        return this.lines;
+    }
+
 	private static Component title(String text, TextColor color) {
 		return Component.translatable(text, color).font(Key.key("small"));
 	}
