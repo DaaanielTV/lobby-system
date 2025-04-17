@@ -1,29 +1,56 @@
-# Spookly Lobby
+# 🎮 SpooklyLobby - Ultimate Minecraft Server Lobby System
 
+[![Minecraft Version](https://img.shields.io/badge/Minecraft-1.21.5-brightgreen.svg)](https://www.minecraft.net/)
+[![Paper](https://img.shields.io/badge/Paper-1.21.5-blue.svg)](https://papermc.io/)
+[![Java](https://img.shields.io/badge/Java-21-red.svg)](https://adoptium.net/)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
 The Spookly Lobby System is a custom Minecraft Paper 1.21+ plugin designed to seamlessly integrate with the Spookly server infrastructure, providing a feature-rich lobby experience tailored for advanced server management.
 
-## Installation and Setup
-### Clone the Repository:
-```shell
-git clone https://github.com/Spookly-Network/SpooklyLobby.git
-```
+## ✨ Features
 
-### Build the Plugin:
-```shell
-cd Lobby
-./gradlew build
-```
+🎯 Complete Lobby Management System:
+- 🏃‍♂️ Advanced player movement and interaction controls
+- 🎒 Custom inventory systems
+- 🎆 Particle effects and cosmetics
+- 🎮 Mini-games integration
+- 👥 NPC system with custom skins
+- 📊 Dynamic scoreboard system
 
-### Add to Server:
-- Place the generated Lobby.jar file in your server's plugins directory.
-- Restart the server.
+## 🚀 Quick Start
 
-## Dependencies
-- CloudNet 4.0.0-RC10
-- PaperMC 1.21+
+### Prerequisites
+- Java 21 or higher ☕
+- Paper/Spigot Server 1.21.5 🖥️
+- SpooklyCore & SpooklyCloudnetUtils plugins 🔌
+
+### Installation
+1. 📥 Download the latest release
+2. 📁 Place in your plugins folder
+3. 🔄 Restart your server
+4. ⚙️ Configure in `plugins/SpooklyLobby/config.yml`
+
+## 🛠️ Commands
+
+| Command | Permission | Description |
+|---------|------------|-------------|
+| `/build` | `spookly.command.build` | 🏗️ Toggle build mode |
+| `/setspawn` | `spookly.command.setup` | 📍 Set spawn points |
+| `/fly` | `spookly.command.fly` | 🦅 Toggle flight mode |
+
+## 🔧 Configuration
+
+All configuration files support RGB colors and MiniMessage format! 🎨
+
+## 🤝 Dependencies
+
 - SpooklyCore
+- SpooklyCloudnetUtils
+- SpooklyCosmetics (optional)
+
+## 💡 Support
+
+Need help? Join our Discord community! 🎮
 
 ## Contributing
 We welcome contributions to Spookly-Core-API! Here's how you can contribute:
@@ -40,7 +67,9 @@ Please follow the existing code style and conventions when contributing. Ensure 
 ### Reporting Issues
 If you encounter any issues or bugs, please report them on the GitHub issues page. Provide as much detail as possible, including steps to reproduce the issue and any relevant code snippets.
 
-## License
-Spookly-Core-API is licensed under the MIT License. See the LICENSE file for more information.
+## 📝 License
 
-Made with ❤️ by the Spookly Network team.
+This project is licensed under the MIT License - see the LICENSE file for details. ⚖️
+
+---
+Made with ❤️ by Spookly Network
