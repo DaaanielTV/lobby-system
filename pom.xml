@@ -29,11 +29,6 @@
             <id>cloudnet</id>
             <url>https://repo.cloudnetservice.eu/repository/releases/</url>
         </repository>
-        <!-- Spookly Repository -->
-        <repository>
-            <id>spookly</id>
-            <url>https://repo.spookly.net/repository/releases/</url>
-        </repository>
     </repositories>
 
     <dependencies>
@@ -70,14 +65,16 @@
         <dependency>
             <groupId>de.nehlen</groupId>
             <artifactId>spookly-core</artifactId>
-            <version>4.1-SNAPSHOT</version>
-            <scope>provided</scope>
+            <version>4.1</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/spookly-core-4.1.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>de.nehlen</groupId>
             <artifactId>spookly-cloudnet-utils</artifactId>
-            <version>4.1-SNAPSHOT</version>
-            <scope>provided</scope>
+            <version>4.1</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/spookly-cloudnet-utils-4.1.jar</systemPath>
         </dependency>
 
         <!-- Lombok -->
